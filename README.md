@@ -49,3 +49,5 @@ make test        # unit, power-cut and attack tests
 make asan        # same tests under AddressSanitizer and UBSan
 make mutants     # the tests must fail on each seeded bug
 ```
+
+See [THREAT_MODEL.md](THREAT_MODEL.md) for the STRIDE analysis and known gaps.
